@@ -1,0 +1,20 @@
+{
+  "name": "dayjs-locale-repro",
+  "version": "1.0.0",
+  "description": "Reproduce dayjs locale memory leak",
+  "author": "Daniel Khalil",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "dayjs": "^1.8.25",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "artillery": "^1.6.0"
+  }
+}

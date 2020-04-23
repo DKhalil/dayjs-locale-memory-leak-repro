@@ -1,0 +1,10 @@
+config:
+  target: 'http://localhost:3000'
+  phases:
+    - duration: 7200
+      arrivalRate: 20
+scenarios:
+  - name: 'Stress site'
+    flow:
+      - get:
+          url: '/'
